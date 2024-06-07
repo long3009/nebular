@@ -1,0 +1,31 @@
+name: "publish npm"
+
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          node-version: 14
+          registry-url: https://registry.npmjs.org
+      - name: node
+        uses: actions/setup-node@v2
+        with:
+            node-version: 14
+            registry-url: https://registry.npmjs.org
+      - name: Install
+        run: npm install --legacy-peer-deps
+      - name: Build
+        run: |
+          node --max-old-space-size=4096 `which npm` run build:lib:prod --if-present
+        env:
+          CI: true
+      - name: pre-publish
+        run: npm run prepublish:lib
+      - name: publish
+        run: npm run publish:lib --access public
+        env:
+            NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
