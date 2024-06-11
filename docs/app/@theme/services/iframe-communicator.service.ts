@@ -1,7 +1,7 @@
 import { Inject, Injectable } from '@angular/core';
 import { Observable,  fromEvent as observableFromEvent } from 'rxjs';
 import { filter,  map } from 'rxjs/operators';
-import { NB_WINDOW } from '@nebular/theme';
+import { NB_WINDOW } from '@long3009/nebular-theme';
 
 @Injectable()
 export class NgdIframeCommunicatorService {

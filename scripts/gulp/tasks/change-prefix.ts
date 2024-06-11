@@ -41,13 +41,13 @@ const NEBULAR_PACKAGES: NebularPackage[] = [
  * Reads package prefix and all package names passed as command line arguments.
  * List of supported arguments:
  * --prefix    - prefix of the package. Also used as prefix in class names, selector prefixes etc.
- * --auth      - replacement for @nebular/auth
- * --bootstrap - replacement for @nebular/bootstrap
- * --date-fns  - replacement for @nebular/date-fns
- * --eva-icons - replacement for @nebular/eva-icons
- * --moment    - replacement for @nebular/moment
- * --theme     - replacement for @nebular/theme
- * --security  - replacement for @nebular/security
+ * --auth      - replacement for @long3009/nebular-auth
+ * --bootstrap - replacement for @long3009/nebular-bootstrap
+ * --date-fns  - replacement for @long3009/nebular-date-fns
+ * --eva-icons - replacement for @long3009/nebular-eva-icons
+ * --moment    - replacement for @long3009/nebular-moment
+ * --theme     - replacement for @long3009/nebular-theme
+ * --security  - replacement for @long3009/nebular-security
  * @param argv command line arguments
  * @returns ParsedArguments
  */
@@ -71,7 +71,7 @@ function parseArguments(argv: string[]): ParsedArguments {
  * Prefixes packages and fills config with default package names for packages
  * not passed as `--[package-name]` argument.
  * Default package name is `${prefix}/${dasherize(packageName)}`.
- * For example, with prefix set `@custom`, `@nebular/auth` would ne `@custom/auth`.
+ * For example, with prefix set `@custom`, `@long3009/nebular-auth` would ne `@custom/auth`.
  * @param parsedArguments parsed command line arguments
  * @returns PackageNamesConfig
  */
@@ -124,7 +124,7 @@ function getReplacements(packageNamesConfig: PackageNamesConfig): StringReplacem
 
   const prefixReplacements: StringReplacement[] = generatePrefixReplacements(unscopedPrefix);
   const projectReplacements: StringReplacement[] = NEBULAR_PACKAGES.map((packageName) => {
-    return { from: `@nebular/${packageName}`, to: packageNamesConfig[packageName] };
+    return { from: `@long3009/nebular-${packageName}`, to: packageNamesConfig[packageName] };
   });
 
   return prefixReplacements.concat(projectReplacements);
@@ -138,7 +138,7 @@ task('generate-ts-config', () => {
   let stream = src('tsconfig.publish.json');
 
   for (const packageName of NEBULAR_PACKAGES) {
-    stream = stream.pipe(replace(`@nebular/${dasherize(packageName)}`, theme))
+    stream = stream.pipe(replace(`@long3009/nebular-${dasherize(packageName)}`, theme))
   }
 
   return stream
@@ -205,10 +205,10 @@ task('patch-rollup-config', () => {
  * Each package name could be configured individually. For example:
  * `$gulp change-prefix -- --prefix @custom-prefix --theme ui-kit --eva-icons icons`
  * Result:
- * `@nebular/theme`     -> `@custom-prefix/ui-kit`
- * `@nebular/eva-icons` -> `@custom-prefix/icons`
- * `@nebular/auth`      -> `@custom-prefix/auth`,
- * `@nebular/date-fns`  -> `@custom-prefix/date-fns`, etc.
+ * `@long3009/nebular-theme`     -> `@custom-prefix/ui-kit`
+ * `@long3009/nebular-eva-icons` -> `@custom-prefix/icons`
+ * `@long3009/nebular-auth`      -> `@custom-prefix/auth`,
+ * `@long3009/nebular-date-fns`  -> `@custom-prefix/date-fns`, etc.
  *
  * This task not mean to be used directly. Rather you should use following command:
  * `$npm run build:custom-prefix -- --prefix @custom-prefix --theme @custom-prefix/ui-kit`.

@@ -9,13 +9,13 @@
       "node"
     ],
     "paths": {
-      "@nebular/*": [
+      "@long3009/nebular/*": [
         "./framework/*/public_api.ts"
       ],
-      "@nebular/theme/*": [
+      "@long3009/nebular-theme/*": [
         "./framework/theme/*"
       ],
-      "@nebular/auth/*": [
+      "@long3009/nebular-auth/*": [
         "./framework/auth/*"
       ]
     }

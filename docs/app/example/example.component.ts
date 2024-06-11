@@ -2,7 +2,7 @@ import { AfterViewInit, Component, Inject, OnDestroy, OnInit } from '@angular/co
 import { Router } from '@angular/router';
 import { of as observableOf, Subject } from 'rxjs';
 import { takeUntil, delay } from 'rxjs/operators';
-import { NB_DOCUMENT, NbThemeService } from '@nebular/theme';
+import { NB_DOCUMENT, NbThemeService } from '@long3009/nebular-theme';
 import { NgdAnalytics, NgdIframeCommunicatorService } from '../@theme/services';
 
 @Component({

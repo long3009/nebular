@@ -48,13 +48,13 @@ const ROLLUP_GLOBALS = {
   'date-fns/getWeek': 'date-fns.getWeek',
 
   // @nebular dependencies
-  '@nebular/theme': 'nb.theme',
-  '@nebular/auth': 'nb.auth',
-  '@nebular/security': 'nb.security',
-  '@nebular/moment': 'nb.moment',
-  '@nebular/date-fns': 'nb.date-fns',
-  '@nebular/eva-icons': 'nb.eva-icons',
-  '@nebular/firebase-auth': 'nb.firebase-auth',
+  '@long3009/nebular-theme': 'nb.theme',
+  '@long3009/nebular-auth': 'nb.auth',
+  '@long3009/nebular-security': 'nb.security',
+  '@long3009/nebular-moment': 'nb.moment',
+  '@long3009/nebular-date-fns': 'nb.date-fns',
+  '@long3009/nebular-eva-icons': 'nb.eva-icons',
+  '@long3009/nebular-firebase-auth': 'nb.firebase-auth',
 
   'eva-icons': 'eva-icons',
 };

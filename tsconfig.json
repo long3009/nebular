@@ -17,7 +17,7 @@
     ],
     "baseUrl": ".",
     "paths": {
-      "@nebular/*": [
+      "@long3009/nebular/*": [
         "./src/framework/*/public_api.ts"
       ]
     }

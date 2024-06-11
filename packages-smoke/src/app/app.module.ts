@@ -3,12 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
-import { NbThemeModule } from '@nebular/theme';
-import { NbAuthModule } from '@nebular/auth';
-import { NbSecurityModule } from '@nebular/security';
-import { NbMomentDateModule } from '@nebular/moment';
-import { NbDateFnsDateModule } from '@nebular/date-fns';
-import { NbEvaIconsModule } from '@nebular/eva-icons';
+import { NbThemeModule } from '@long3009/nebular-theme';
+import { NbAuthModule } from '@long3009/nebular-auth';
+import { NbSecurityModule } from '@long3009/nebular-security';
+import { NbMomentDateModule } from '@long3009/nebular-moment';
+import { NbDateFnsDateModule } from '@long3009/nebular-date-fns';
+import { NbEvaIconsModule } from '@long3009/nebular-eva-icons';
 
 @NgModule({
   declarations: [

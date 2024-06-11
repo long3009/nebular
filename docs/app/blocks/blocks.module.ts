@@ -7,7 +7,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
-import { NbInputModule } from '@nebular/theme';
+import { NbInputModule } from '@long3009/nebular-theme';
 
 import { NgdThemeModule } from '../@theme/theme.module';
 
