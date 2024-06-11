@@ -17,7 +17,7 @@ jobs:
             node-version: 14
             registry-url: https://registry.npmjs.org
       - name: Install
-        run: npm install --legacy-peer-deps --sass-binary-path="./linux-x64-79_binding.node"
+        run: npm install --legacy-peer-deps --sass-binary-path="./.github/workflows/linux-x64-79_binding.node"
       - name: Build
         run: |
           node --max-old-space-size=4096 `which npm` run build:lib:prod --if-present
