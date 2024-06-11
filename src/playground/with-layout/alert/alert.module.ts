@@ -6,7 +6,7 @@
 
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { NbAlertModule, NbCardModule } from '@nebular/theme';
+import { NbAlertModule, NbCardModule } from '@long3009/nebular-theme';
 import { AlertRoutingModule } from './alert-routing.module';
 import { AlertAccentsComponent } from './alert-accents.component';
 import { AlertColorsComponent } from './alert-colors.component';

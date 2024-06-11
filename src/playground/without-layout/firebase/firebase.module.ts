@@ -3,8 +3,8 @@ import { NgModule } from '@angular/core';
 import { AngularFireModule } from '@angular/fire';
 import { AngularFireAuthModule } from '@angular/fire/auth';
 import { AngularFireDatabaseModule } from '@angular/fire/database';
-import { NbAuthModule } from '@nebular/auth';
-import { NbFirebaseAuthModule, NbFirebasePasswordStrategy, NbFirebaseGoogleStrategy } from '@nebular/firebase-auth';
+import { NbAuthModule } from '@long3009/nebular-auth';
+import { NbFirebaseAuthModule, NbFirebasePasswordStrategy, NbFirebaseGoogleStrategy } from '@long3009/nebular-firebase-auth';
 
 import { FirebaseAPIService } from './firebase-api.service';
 import { FirebasePlaygroundComponent } from './firebase-playground.component';

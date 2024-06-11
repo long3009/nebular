@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NbWindowService } from '@nebular/theme';
+import { NbWindowService } from '@long3009/nebular-theme';
 import { FormComponent } from './components/form.component';
 
 @Component({

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NbWindowRef } from '@nebular/theme';
+import { NbWindowRef } from '@long3009/nebular-theme';
 
 @Component({
   template: `

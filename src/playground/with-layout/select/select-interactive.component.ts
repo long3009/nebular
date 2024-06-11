@@ -5,8 +5,8 @@
  */
 
 import { Component } from '@angular/core';
-import { NbComponentShape, NbComponentSize, NbComponentStatus } from '@nebular/theme';
-import { NbSelectAppearance } from '@nebular/theme';
+import { NbComponentShape, NbComponentSize, NbComponentStatus } from '@long3009/nebular-theme';
+import { NbSelectAppearance } from '@long3009/nebular-theme';
 
 @Component({
   selector: 'nb-select-interactive',

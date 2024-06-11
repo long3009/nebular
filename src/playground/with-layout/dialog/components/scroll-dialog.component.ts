@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { NbDialogRef } from '@nebular/theme';
+import { NbDialogRef } from '@long3009/nebular-theme';
 
 @Component({
   template: `

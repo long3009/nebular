@@ -1,5 +1,5 @@
 import { Component, TemplateRef, ViewChild } from '@angular/core';
-import { NbWindowService } from '@nebular/theme';
+import { NbWindowService } from '@long3009/nebular-theme';
 
 @Component({
   template: `

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NbDialogService } from '@nebular/theme';
+import { NbDialogService } from '@long3009/nebular-theme';
 import { AutoFocusDialogComponent } from './components/auto-focus-dialog.component';
 
 @Component({

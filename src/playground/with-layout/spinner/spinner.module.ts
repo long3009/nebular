@@ -5,7 +5,7 @@
  */
 
 import { NgModule } from '@angular/core';
-import { NbButtonModule, NbCardModule, NbSpinnerModule, NbTabsetModule } from '@nebular/theme';
+import { NbButtonModule, NbCardModule, NbSpinnerModule, NbTabsetModule } from '@long3009/nebular-theme';
 import { SpinnerRoutingModule } from './spinner-routing.module';
 import { SpinnerButtonComponent } from './spinner-button.component';
 import { SpinnerCardComponent } from './spinner-card.component';

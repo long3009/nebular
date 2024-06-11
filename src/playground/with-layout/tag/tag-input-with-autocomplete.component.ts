@@ -5,7 +5,7 @@
  */
 
 import { ChangeDetectionStrategy, Component, ElementRef, ViewChild } from '@angular/core';
-import { NbTagComponent, NbTagInputDirective } from '@nebular/theme';
+import { NbTagComponent, NbTagInputDirective } from '@long3009/nebular-theme';
 
 import { trees } from './trees-list';
 

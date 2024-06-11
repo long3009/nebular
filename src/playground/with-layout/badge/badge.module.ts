@@ -5,7 +5,7 @@
  */
 
 import { NgModule } from '@angular/core';
-import { NbBadgeModule, NbCardModule } from '@nebular/theme';
+import { NbBadgeModule, NbCardModule } from '@long3009/nebular-theme';
 import { BadgeRoutingModule } from './badge-routing.module';
 import { BadgeShowcaseComponent } from './badge-showcase.component';
 

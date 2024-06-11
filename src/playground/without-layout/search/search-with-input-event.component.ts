@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {NbSearchService} from '@nebular/theme';
+import {NbSearchService} from '@long3009/nebular-theme';
 import {debounceTime, distinctUntilChanged} from 'rxjs/operators';
 
 @Component({

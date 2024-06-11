@@ -12,9 +12,9 @@ import {
   NbButtonModule,
   NbCardModule,
   NbLayoutModule,
-} from '@nebular/theme';
+} from '@long3009/nebular-theme';
 
-import { NbAuthModule, NbDummyAuthStrategy } from '@nebular/auth';
+import { NbAuthModule, NbDummyAuthStrategy } from '@long3009/nebular-auth';
 import { AppComponent } from './app.component';
 import { AppRouting } from './app-routing.module';
 

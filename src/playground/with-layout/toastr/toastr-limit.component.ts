@@ -1,4 +1,4 @@
-import { NbGlobalLogicalPosition, NbToastrService } from '@nebular/theme';
+import { NbGlobalLogicalPosition, NbToastrService } from '@long3009/nebular-theme';
 import { Component } from '@angular/core';
 
 @Component({

@@ -6,7 +6,7 @@
 
 import { Component, OnInit } from '@angular/core';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap'
-import { NbThemeService } from '@nebular/theme';
+import { NbThemeService } from '@long3009/nebular-theme';
 
 import 'style-loader!./styles.scss';
 

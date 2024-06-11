@@ -6,7 +6,7 @@
 
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { NbAuthComponent } from '@nebular/auth';
+import { NbAuthComponent } from '@long3009/nebular-auth';
 
 import { LoginComponent } from './login/login.component';
 

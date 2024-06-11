@@ -5,7 +5,7 @@
  */
 
 import { NgModule } from '@angular/core';
-import { NbButtonModule, NbLayoutModule, NbSidebarModule } from '@nebular/theme';
+import { NbButtonModule, NbLayoutModule, NbSidebarModule } from '@long3009/nebular-theme';
 import { SidebarRoutingModule } from './sidebar-routing.module';
 import { SidebarCompactedComponent } from './sidebar-compacted.component';
 import { SidebarFixedComponent } from './sidebar-fixed.component';

@@ -5,7 +5,7 @@
  */
 
 import { NgModule } from '@angular/core';
-import { NbAccordionModule, NbButtonModule, NbCardModule } from '@nebular/theme';
+import { NbAccordionModule, NbButtonModule, NbCardModule } from '@long3009/nebular-theme';
 import { AccordionRoutingModule } from './accordion-routing.module';
 import { AccordionMultiComponent } from './accordion-multi.component';
 import { AccordionShowcaseComponent } from './accordion-showcase.component';

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NbSidebarService } from '@nebular/theme';
+import { NbSidebarService } from '@long3009/nebular-theme';
 
 @Component({
   selector: 'nb-layout-subheader',

@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { NbWindowControlButtonsConfig, NbWindowService } from '@nebular/theme';
+import { NbWindowControlButtonsConfig, NbWindowService } from '@long3009/nebular-theme';
 
 import { FormComponent } from './components/form.component';
 

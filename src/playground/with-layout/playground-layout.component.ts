@@ -5,7 +5,7 @@
  */
 
 import { Component, OnInit } from '@angular/core';
-import { NbThemeService } from '@nebular/theme';
+import { NbThemeService } from '@long3009/nebular-theme';
 import 'style-loader!../styles/styles.scss';
 
 

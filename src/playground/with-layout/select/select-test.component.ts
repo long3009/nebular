@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NbComponentSize } from '@nebular/theme';
+import { NbComponentSize } from '@long3009/nebular-theme';
 
 @Component({
   template: `

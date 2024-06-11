@@ -5,7 +5,7 @@
  */
 
 import { NgModule } from '@angular/core';
-import { NbCardModule } from '@nebular/theme';
+import { NbCardModule } from '@long3009/nebular-theme';
 import { FlipCardRoutingModule } from './flip-card-routing.module';
 import { FlipCardAccentsComponent } from './flip-card-accents.component';
 import { FlipCardColorsComponent } from './flip-card-colors.component';

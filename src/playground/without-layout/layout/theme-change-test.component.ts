@@ -5,7 +5,7 @@
  */
 
 import { Component } from '@angular/core';
-import { NbThemeService } from '@nebular/theme';
+import { NbThemeService } from '@long3009/nebular-theme';
 
 @Component({
   selector: 'nb-change-theme-test',

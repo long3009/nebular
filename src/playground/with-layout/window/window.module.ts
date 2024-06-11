@@ -5,7 +5,7 @@
  */
 
 import { NgModule } from '@angular/core';
-import { NbButtonModule, NbCardModule, NbCheckboxModule, NbInputModule, NbWindowModule } from '@nebular/theme';
+import { NbButtonModule, NbCardModule, NbCheckboxModule, NbInputModule, NbWindowModule } from '@long3009/nebular-theme';
 
 import { WindowRoutingModule } from './window-routing.module';
 import { TemplateWindowComponent } from './template-window.component';

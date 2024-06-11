@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NbDateService, NbCalendarRange } from '@nebular/theme';
+import { NbDateService, NbCalendarRange } from '@long3009/nebular-theme';
 
 @Component({
   template: `

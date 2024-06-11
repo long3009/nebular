@@ -5,7 +5,7 @@
  */
 
 import { Component } from '@angular/core';
-import { NbAccessChecker } from '@nebular/security';
+import { NbAccessChecker } from '@long3009/nebular-security';
 
 @Component({
   selector: 'nb-actions-test',

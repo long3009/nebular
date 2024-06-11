@@ -5,7 +5,7 @@
  */
 
 import { NgModule } from '@angular/core';
-import { NbButtonModule, NbCardModule, NbMenuModule } from '@nebular/theme';
+import { NbButtonModule, NbCardModule, NbMenuModule } from '@long3009/nebular-theme';
 import { MenuRoutingModule } from './menu-routing.module';
 import { MenuChildrenComponent } from './menu-children.component';
 import { MenuShowcaseComponent } from './menu-showcase.component';

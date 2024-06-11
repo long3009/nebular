@@ -10,14 +10,14 @@ import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { NbThemeModule } from '@nebular/theme';
+import { NbThemeModule } from '@long3009/nebular-theme';
 
 import { AppComponent } from './app.component';
 import { LayoutDirectionToggleComponent } from './layout-direction-toggle/layout-direction-toggle.component';
 import { LayoutThemeToggleComponent } from './layout-theme-toggle/layout-theme-toggle.component';
 import { ComponentsOverlayComponent } from './components-list/components-overlay.component';
 import { ComponentsListComponent} from './components-list/components-list.component';
-import { NbEvaIconsModule } from '@nebular/eva-icons';
+import { NbEvaIconsModule } from '@long3009/nebular-eva-icons';
 
 @NgModule({
   imports: [

@@ -1,5 +1,5 @@
 import { Component, HostBinding } from '@angular/core';
-import { NbToastrService } from '@nebular/theme';
+import { NbToastrService } from '@long3009/nebular-theme';
 
 @Component({
   selector: 'nb-toastr-positions',

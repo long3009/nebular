@@ -12,9 +12,9 @@ import { HttpClientModule } from '@angular/common/http';
 import {
   NbCardModule,
   NbLayoutModule,
-} from '@nebular/theme';
+} from '@long3009/nebular-theme';
 
-import { NbAuthModule } from '@nebular/auth';
+import { NbAuthModule } from '@long3009/nebular-auth';
 
 import { AzureLoginComponent } from './azure-login.component';
 import { AzureCallbackComponent } from './azure-callback.component';

@@ -13,7 +13,7 @@ import {
   NbButtonModule,
   NbCardModule,
   NbSelectModule,
-} from '@nebular/theme';
+} from '@long3009/nebular-theme';
 
 import { FormFieldRoutingModule } from './form-field-routing.module';
 import { FormFieldShowcaseComponent } from './form-field-showcase.component';

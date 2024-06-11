@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NbGetters, NbTreeGridDataSource, NbTreeGridDataSourceBuilder } from '@nebular/theme';
+import { NbGetters, NbTreeGridDataSource, NbTreeGridDataSourceBuilder } from '@long3009/nebular-theme';
 
 interface FSEntry {
   name: string;

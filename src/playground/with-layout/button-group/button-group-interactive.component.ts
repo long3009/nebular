@@ -5,7 +5,7 @@
  */
 
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { NbButtonToggleAppearance, NbComponentShape, NbComponentSize, NbComponentStatus } from '@nebular/theme';
+import { NbButtonToggleAppearance, NbComponentShape, NbComponentSize, NbComponentStatus } from '@long3009/nebular-theme';
 
 @Component({
   templateUrl: './button-group-interactive.component.html',
