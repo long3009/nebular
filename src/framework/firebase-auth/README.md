@@ -1,1 +1,1 @@
-### @nebular/firebase-auth module, more details https://akveo.github.io/nebular/
+### @long3009/nebular-firebase-auth module, more details https://akveo.github.io/nebular/

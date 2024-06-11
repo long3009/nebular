@@ -40,15 +40,15 @@ const defaultAppOptions: ApplicationOptions = {
 
 const EXPECTED_STYLES_SCSS = `@import 'themes';
 
-@import '~@nebular/theme/styles/globals';
+@import '~@long3009/nebular-theme/styles/globals';
 
 @include nb-install() {
   @include nb-theme-global();
 };
 `;
 
-const EXPECTED_THEME_SCSS = `@import '~@nebular/theme/styles/theming';
-@import '~@nebular/theme/styles/themes/default';
+const EXPECTED_THEME_SCSS = `@import '~@long3009/nebular-theme/styles/theming';
+@import '~@long3009/nebular-theme/styles/themes/default';
 
 $nb-themes: nb-register-theme((
 
@@ -129,20 +129,20 @@ describe('ng-add', () => {
       expect(dependencies['@angular/animations']).toBe(angularCoreVersion);
     });
 
-    it('should add @nebular/theme in package.json', function () {
+    it('should add @long3009/nebular-theme in package.json', function () {
       const dependencies = getPackageDependencies(tree);
       const nebularThemeVersion = require('../../package.json').version;
 
-      expect(dependencies['@nebular/theme']).toBeDefined();
-      expect(dependencies['@nebular/theme']).toBe(nebularThemeVersion);
+      expect(dependencies['@long3009/nebular-theme']).toBeDefined();
+      expect(dependencies['@long3009/nebular-theme']).toBe(nebularThemeVersion);
     });
 
-    it('should add @nebular/eva-icons in package.json', function (done) {
+    it('should add @long3009/nebular-eva-icons in package.json', function (done) {
       let dependencies = getPackageDependencies(tree);
       const nebularEvaIconsVersion = require('../../package.json').version;
 
-      expect(dependencies['@nebular/eva-icons']).toBeDefined();
-      expect(dependencies['@nebular/eva-icons']).toBe(nebularEvaIconsVersion);
+      expect(dependencies['@long3009/nebular-eva-icons']).toBeDefined();
+      expect(dependencies['@long3009/nebular-eva-icons']).toBe(nebularEvaIconsVersion);
 
       runPostInstallSchematic().subscribe(updatedTree => {
         dependencies = getPackageDependencies(updatedTree);
@@ -197,7 +197,7 @@ describe('ng-add', () => {
       const project = getProjectFromWorkspace(workspace);
       const styles = getProjectTargetOptions(project, 'build').styles;
 
-      expect(styles).toContain('./node_modules/@nebular/theme/styles/prebuilt/default.css')
+      expect(styles).toContain('./node_modules/@long3009/nebular-theme/styles/prebuilt/default.css')
       done();
     });
   });

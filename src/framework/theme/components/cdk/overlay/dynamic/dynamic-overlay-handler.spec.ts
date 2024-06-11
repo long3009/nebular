@@ -22,7 +22,7 @@ import { NbDynamicOverlay } from './dynamic-overlay';
 import { NbOverlayContent } from '../overlay-service';
 import { NbDynamicOverlayChange, NbDynamicOverlayHandler } from './dynamic-overlay-handler';
 import { NbTrigger, NbTriggerStrategy, NbTriggerStrategyBuilderService } from '../overlay-trigger';
-import { NbOverlayConfig } from '@nebular/theme/components/cdk/overlay/mapping';
+import { NbOverlayConfig } from '@long3009/nebular-theme/components/cdk/overlay/mapping';
 
 @Component({ template: '' })
 export class NbDynamicOverlayMockComponent implements NbRenderableContainer {

@@ -11,14 +11,14 @@ import {
   NB_AUTH_TOKEN_INTERCEPTOR_FILTER,
   NB_AUTH_TOKENS,
   NB_AUTH_USER_OPTIONS,
-} from '@nebular/auth/auth.options';
-import { NbAuthJWTInterceptor, NbAuthService } from '@nebular/auth';
-import { NbTokenService } from '@nebular/auth/services/token/token.service';
-import { NbTokenLocalStorage, NbTokenStorage } from '@nebular/auth/services/token/token-storage';
-import { NB_AUTH_FALLBACK_TOKEN, NbAuthTokenParceler } from '@nebular/auth/services/token/token-parceler';
-import { NbDummyAuthStrategy } from '@nebular/auth';
-import { nbOptionsFactory, nbStrategiesFactory } from '@nebular/auth/auth.module';
-import { NbAuthJWTToken, NbAuthSimpleToken} from '@nebular/auth/services/token/token';
+} from '@long3009/nebular-auth/auth.options';
+import { NbAuthJWTInterceptor, NbAuthService } from '@long3009/nebular-auth';
+import { NbTokenService } from '@long3009/nebular-auth/services/token/token.service';
+import { NbTokenLocalStorage, NbTokenStorage } from '@long3009/nebular-auth/services/token/token-storage';
+import { NB_AUTH_FALLBACK_TOKEN, NbAuthTokenParceler } from '@long3009/nebular-auth/services/token/token-parceler';
+import { NbDummyAuthStrategy } from '@long3009/nebular-auth';
+import { nbOptionsFactory, nbStrategiesFactory } from '@long3009/nebular-auth/auth.module';
+import { NbAuthJWTToken, NbAuthSimpleToken} from '@long3009/nebular-auth/services/token/token';
 
 
 describe('jwt-interceptor', () => {

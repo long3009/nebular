@@ -7,7 +7,7 @@
 import { TestBed } from '@angular/core/testing';
 import { LOCALE_ID } from '@angular/core';
 
-import { NbDateService } from '@nebular/theme';
+import { NbDateService } from '@long3009/nebular-theme';
 
 import { NbDateFnsDateService } from './date-fns-date.service';
 

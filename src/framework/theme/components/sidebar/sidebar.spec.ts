@@ -20,7 +20,7 @@ import {
   NbThemeService,
   NbMediaBreakpointsService,
   NbSidebarResponsiveState,
-} from '@nebular/theme';
+} from '@long3009/nebular-theme';
 
 @Component({
   template: `

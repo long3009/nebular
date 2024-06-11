@@ -6,7 +6,7 @@
 
 
 import { Injectable } from '@angular/core';
-import { NbAuthResult, NbAuthStrategyClass, NbAuthStrategyOptions } from '@nebular/auth';
+import { NbAuthResult, NbAuthStrategyClass, NbAuthStrategyOptions } from '@long3009/nebular-auth';
 import { from, Observable } from 'rxjs';
 import { catchError, switchMap } from 'rxjs/operators';
 

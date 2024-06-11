@@ -5,10 +5,10 @@
  */
 
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { NbTimePickerComponent } from '@nebular/theme/components/timepicker/timepicker.component';
-import { NbThemeModule } from '@nebular/theme/theme.module';
-import { NB_TIME_PICKER_CONFIG } from '@nebular/theme';
-import { NbTimepickerModule } from '@nebular/theme/components/timepicker/timepicker.module';
+import { NbTimePickerComponent } from '@long3009/nebular-theme/components/timepicker/timepicker.component';
+import { NbThemeModule } from '@long3009/nebular-theme/theme.module';
+import { NB_TIME_PICKER_CONFIG } from '@long3009/nebular-theme';
+import { NbTimepickerModule } from '@long3009/nebular-theme/components/timepicker/timepicker.module';
 
 
 describe('NbTimePickerComponent', () => {

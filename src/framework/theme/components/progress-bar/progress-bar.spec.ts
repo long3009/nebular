@@ -1,7 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 
-import { NbThemeModule, NbProgressBarModule, NbProgressBarComponent } from '@nebular/theme';
+import { NbThemeModule, NbProgressBarModule, NbProgressBarComponent } from '@long3009/nebular-theme';
 
 describe('Component: NbProgressBar', () => {
 

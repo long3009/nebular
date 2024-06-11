@@ -14,7 +14,7 @@ import {
   NbIconComponent,
   NbIconLibraries,
   NbThemeModule,
-} from '@nebular/theme';
+} from '@long3009/nebular-theme';
 
 const ICON_NAME = 'chevron-left-outline';
 

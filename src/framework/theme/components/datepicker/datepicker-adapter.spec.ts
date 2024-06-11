@@ -1,5 +1,5 @@
 import { TestBed } from '@angular/core/testing';
-import { NbCalendarRange, NbDateService, NbDateTimeAdapterService } from '@nebular/theme';
+import { NbCalendarRange, NbDateService, NbDateTimeAdapterService } from '@long3009/nebular-theme';
 
 import { NbDateAdapterService, NbRangeAdapterService } from './datepicker-adapter';
 

@@ -9,7 +9,7 @@ import {
   NbSelectModule,
   NbSelectComponent,
   NbThemeModule,
-} from '@nebular/theme';
+} from '@long3009/nebular-theme';
 
 @Component({
   template: `

@@ -12,7 +12,7 @@ import {
   NbIconModule,
   NbInputModule,
   NbLayoutModule,
-} from '@nebular/theme';
+} from '@long3009/nebular-theme';
 
 import { NbAuthService } from './services/auth.service';
 import { NbAuthSimpleToken, NbAuthTokenClass } from './services/token/token';

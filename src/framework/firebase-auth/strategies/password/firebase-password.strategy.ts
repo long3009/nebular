@@ -8,7 +8,7 @@ import { Injectable } from '@angular/core';
 import firebase from 'firebase/app';
 import { Observable, of as observableOf, from } from 'rxjs';
 import { catchError, map, switchMap, take } from 'rxjs/operators';
-import { NbAuthStrategyOptions, NbAuthStrategyClass, NbAuthResult } from '@nebular/auth';
+import { NbAuthStrategyOptions, NbAuthStrategyClass, NbAuthResult } from '@long3009/nebular-auth';
 
 import { NbFirebaseBaseStrategy } from '../base/firebase-base.strategy';
 import {

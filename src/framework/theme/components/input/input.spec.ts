@@ -6,7 +6,7 @@
 
 import { Component, Input } from '@angular/core'
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { NbInputDirective, NbThemeModule } from '@nebular/theme';
+import { NbInputDirective, NbThemeModule } from '@long3009/nebular-theme';
 import { By } from '@angular/platform-browser';
 import { NbComponentStatus } from '../component-status';
 import { NbComponentSize } from '../component-size';

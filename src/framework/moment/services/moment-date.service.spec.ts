@@ -7,7 +7,7 @@
 import { LOCALE_ID } from '@angular/core';
 import { TestBed } from '@angular/core/testing';
 
-import { NbDateService } from '@nebular/theme';
+import { NbDateService } from '@long3009/nebular-theme';
 import { NbMomentDateService } from './moment-date.service';
 import * as moment from 'moment';
 

@@ -13,7 +13,7 @@ import {
   NbTreeGridDataSourceBuilder,
   NbTreeGridPresentationNode,
   NbGetters,
-} from '@nebular/theme';
+} from '@long3009/nebular-theme';
 
 interface TreeNode<T> {
   data: T;

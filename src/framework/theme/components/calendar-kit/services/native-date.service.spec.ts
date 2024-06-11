@@ -5,7 +5,7 @@
  */
 
 import { NbDateService, NbDayPeriod } from './date.service';
-import { NbNativeDateService } from '@nebular/theme';
+import { NbNativeDateService } from '@long3009/nebular-theme';
 import { TestBed } from '@angular/core/testing';
 import { LOCALE_ID } from '@angular/core';
 

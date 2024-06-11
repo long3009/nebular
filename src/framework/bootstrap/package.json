@@ -1,7 +1,7 @@
 {
   "name": "@long3009/nebular-bootstrap",
   "version": "8.0.0",
-  "description": "@nebular/bootstrap",
+  "description": "@long3009/nebular-bootstrap",
   "author": "akveo",
   "license": "MIT",
   "repository": {
@@ -22,6 +22,6 @@
   ],
   "peerDependencies": {
     "bootstrap": "^4.0.0",
-    "@nebular/theme": "8.0.0"
+    "@long3009/nebular-theme": "8.0.0"
   }
 }

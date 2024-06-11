@@ -10,7 +10,7 @@ import {
   NbAuthJWTToken,
   NbAuthStrategyOptions,
   NbStrategyToken,
-} from '@nebular/auth';
+} from '@long3009/nebular-auth';
 
 export class NbFirebaseIdentityProviderStrategyOptions extends NbAuthStrategyOptions {
   token?: NbStrategyToken = {

@@ -9,7 +9,7 @@ import {
   NB_DOCUMENT,
   NbThemeModule,
   NbWindowControlButtonsConfig,
-} from '@nebular/theme';
+} from '@long3009/nebular-theme';
 
 const WINDOW_CONTENT = 'window content';
 @Component({

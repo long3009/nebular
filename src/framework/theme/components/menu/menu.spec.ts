@@ -36,7 +36,7 @@ import {
   NbIconLibraries,
   NbLayoutDirection,
   NbLayoutDirectionService,
-} from '@nebular/theme';
+} from '@long3009/nebular-theme';
 import { SpyLocation } from '@angular/common/testing';
 
 @Component({ template: '' })

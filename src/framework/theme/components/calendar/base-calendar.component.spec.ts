@@ -11,7 +11,7 @@ import {
   NbCalendarViewMode,
   NbCalendarYearModelService,
   NbThemeModule,
-} from '@nebular/theme';
+} from '@long3009/nebular-theme';
 
 describe('NbBaseCalendarComponent', () => {
   let fixture: ComponentFixture<NbBaseCalendarComponent<Date, Date>>;

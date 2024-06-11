@@ -6,7 +6,7 @@
 
 import { TestBed } from '@angular/core/testing';
 
-import { NbIconModule, NbIconComponent, NbIconConfig, NbThemeModule, NbFontIcon, NbSvgIcon } from '@nebular/theme';
+import { NbIconModule, NbIconComponent, NbIconConfig, NbThemeModule, NbFontIcon, NbSvgIcon } from '@long3009/nebular-theme';
 
 describe('icon', () => {
   let fontIcon: NbFontIcon;

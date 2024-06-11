@@ -2,7 +2,7 @@ import { Component, EventEmitter, Output, QueryList, ViewChild, ViewChildren, In
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { NB_DOCUMENT } from '@nebular/theme/theme.options';
+import { NB_DOCUMENT } from '@long3009/nebular-theme/theme.options';
 import { By } from '@angular/platform-browser';
 import {
   NbOptionComponent,
@@ -16,7 +16,7 @@ import {
   NbOverlayService,
   NbOverlayConfig,
   NbOverlayRef,
-} from '@nebular/theme';
+} from '@long3009/nebular-theme';
 import { Subject, merge } from 'rxjs';
 
 const TEST_GROUPS = [

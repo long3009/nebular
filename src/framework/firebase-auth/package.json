@@ -1,7 +1,7 @@
 {
   "name": "@long3009/nebular-firebase-auth",
   "version": "8.0.0",
-  "description": "@nebular/firebase-auth",
+  "description": "@long3009/nebular-firebase-auth",
   "author": "akveo",
   "license": "MIT",
   "repository": {
@@ -26,7 +26,7 @@
   ],
   "peerDependencies": {
     "@angular/core": "^12.0.0",
-    "@nebular/auth": "8.0.0",
+    "@long3009/nebular-auth": "8.0.0",
     "rxjs": "^6.5.1",
     "firebase": "^8.0.0",
     "@angular/fire": "^6.1.0"

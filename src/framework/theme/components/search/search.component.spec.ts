@@ -10,7 +10,7 @@ import {
   NbSearchService,
   NbThemeModule,
   NbLayoutComponent,
-} from '@nebular/theme';
+} from '@long3009/nebular-theme';
 
 describe('NbSearchFieldComponent', () => {
   let fixture: ComponentFixture<NbSearchFieldComponent>;

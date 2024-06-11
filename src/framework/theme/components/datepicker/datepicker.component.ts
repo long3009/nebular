@@ -351,8 +351,8 @@ export abstract class NbBasePicker<D, T, P> extends NbDatepicker<T> {
 
   protected checkFormat() {
     if (this.dateService.getId() === 'native' && this.format) {
-      throw new Error('Can\'t format native date. To use custom formatting you have to install @nebular/moment or ' +
-        '@nebular/date-fns package and import NbMomentDateModule or NbDateFnsDateModule accordingly.' +
+      throw new Error('Can\'t format native date. To use custom formatting you have to install @long3009/nebular-moment or ' +
+        '@long3009/nebular-date-fns package and import NbMomentDateModule or NbDateFnsDateModule accordingly.' +
         'More information at "Formatting issue" ' +
         'https://akveo.github.io/nebular/docs/components/datepicker/overview#nbdatepickercomponent');
     }

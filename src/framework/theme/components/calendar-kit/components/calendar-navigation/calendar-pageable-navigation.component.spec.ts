@@ -5,7 +5,7 @@
  */
 
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { NbIconModule } from '@nebular/theme';
+import { NbIconModule } from '@long3009/nebular-theme';
 
 import { NbCalendarViewModeComponent } from './calendar-view-mode.component';
 import { NbCalendarPageableNavigationComponent } from './calendar-pageable-navigation.component';

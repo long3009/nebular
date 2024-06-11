@@ -7,12 +7,12 @@ import {
   NbOverlayService,
   NbComponentPortal,
   NbLayoutModule, NbLayoutComponent,
-} from '@nebular/theme';
+} from '@long3009/nebular-theme';
 import {
   NbAdjustableConnectedPositionStrategy,
   NbPosition,
   NbAdjustment,
-} from '@nebular/theme/components/cdk/overlay/overlay-position';
+} from '@long3009/nebular-theme/components/cdk/overlay/overlay-position';
 import { RouterTestingModule } from '@angular/router/testing';
 
 @Component({

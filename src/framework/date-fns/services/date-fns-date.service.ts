@@ -6,7 +6,7 @@
 
 import { Inject, Injectable, LOCALE_ID, Optional } from '@angular/core';
 
-import { NB_DATE_SERVICE_OPTIONS, NbNativeDateService } from '@nebular/theme';
+import { NB_DATE_SERVICE_OPTIONS, NbNativeDateService } from '@long3009/nebular-theme';
 
 import { default as parse } from 'date-fns/parse';
 import { default as formatDate } from 'date-fns/format';

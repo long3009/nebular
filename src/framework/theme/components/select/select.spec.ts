@@ -31,8 +31,8 @@ import {
   NbOptionComponent,
   NbOptionGroupComponent,
   NbTriggerStrategyBuilderService,
-} from '@nebular/theme';
-import { NbFocusKeyManagerFactoryService } from '@nebular/theme/components/cdk/a11y/focus-key-manager';
+} from '@long3009/nebular-theme';
+import { NbFocusKeyManagerFactoryService } from '@long3009/nebular-theme/components/cdk/a11y/focus-key-manager';
 
 const eventMock = { preventDefault() {} } as Event;
 

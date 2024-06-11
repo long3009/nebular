@@ -2,8 +2,8 @@ import { NbToastContainer, NbToastrContainerRegistry, NbToastrService } from './
 import { NbGlobalLogicalPosition, NbGlobalPhysicalPosition } from '../cdk/overlay/position-helper';
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import {Component, ComponentFactoryResolver} from '@angular/core';
-import { NbToast, NbToastrModule } from '@nebular/theme';
-import { NbThemeModule, NbLayoutModule } from '@nebular/theme';
+import { NbToast, NbToastrModule } from '@long3009/nebular-theme';
+import { NbThemeModule, NbLayoutModule } from '@long3009/nebular-theme';
 import {RouterTestingModule} from '@angular/router/testing';
 import {NoopAnimationsModule} from '@angular/platform-browser/animations';
 

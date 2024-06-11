@@ -11,7 +11,7 @@ import {
   NbCalendarViewModeComponent,
   NbCalendarKitModule,
   NbThemeModule,
-} from '@nebular/theme';
+} from '@long3009/nebular-theme';
 
 
 describe('Component: NbCalendarViewModeComponent', () => {

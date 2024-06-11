@@ -11,7 +11,7 @@ import { By } from '@angular/platform-browser';
 import { NbIconModule } from './icon.module';
 import { NbIconLibraries } from './icon-libraries';
 import { NbIconComponent } from './icon.component';
-import { NbThemeModule } from '@nebular/theme/theme.module';
+import { NbThemeModule } from '@long3009/nebular-theme/theme.module';
 
 
 @Component({

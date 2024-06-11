@@ -7,7 +7,7 @@
 import { inject, TestBed, waitForAsync } from '@angular/core/testing';
 import { NbDateService } from './date.service';
 import { NbNativeDateService } from './native-date.service';
-import { NbCalendarTimeModelService } from '@nebular/theme';
+import { NbCalendarTimeModelService } from '@long3009/nebular-theme';
 
 describe('time-model-service', () => {
   let timeModel: NbCalendarTimeModelService<Date>;
